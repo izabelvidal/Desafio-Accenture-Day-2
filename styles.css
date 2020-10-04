@@ -6,14 +6,6 @@
   font-family: 'Press Start 2P', cursive;
 }
 
-/* body {
-  width: 100%;
-}
-
-.layout > img {
-  width: 300px;
-} */
-
 .container {
   display: flex;
   height: 100vh;
@@ -26,15 +18,12 @@
     background-image: url('/images/nokia.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* z-index: 2; */
 
-    /* background: #0f1735; */
     width: 400px;
     height: 100%;
 }
 
 .phone-screen {
-    /* background: #74ec44; */
     background: #5da142b6;
     width: 270px;
     height: 200px;
@@ -51,11 +40,11 @@
   width: 300px;
   max-width: 280px;
   height: 100px;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 18px;
   padding: 10px;
   overflow: hidden;
-  text-overflow: initial;
+  text-overflow: ellipsis;
   -webkit-line-clamp: 3;
 }
 

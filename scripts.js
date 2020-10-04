@@ -83,13 +83,7 @@ buttonHashTag.addEventListener('click', () => {
 
 function showNumber(number) {
   const oldNumber = screen.innerText
-  console.log(oldNumber)
-  
   screen.innerText = oldNumber + number
-}
-
-function cleanScreen(){
-
 }
 
 function saveLetters(letter) {
